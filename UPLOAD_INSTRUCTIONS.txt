@@ -1,0 +1,36 @@
+HOW TO UPDATE YOUR GITHUB REPOSITORY
+
+1. Download and unzip this package.
+2. Open your existing GitHub repository:
+   dadiglobalai-project / dadi-prompt-library
+3. Upload all files and folders from this package to the repository root.
+4. Make sure the final structure is exactly:
+
+   index.html
+   package.json
+   package-lock.json
+   vite.config.js
+   vercel.json
+   README.md
+   UPLOAD_INSTRUCTIONS.txt
+   public/dadi-coach-logo.png
+   public/prompts.json
+   src/main.jsx
+   src/App.jsx
+
+5. Delete or ignore old static files if they remain:
+   app.js
+   styles.css
+   root-level App.jsx
+   root-level main.jsx
+   root-level prompts.json
+   root-level dadi-coach-logo.png
+
+6. Commit message:
+   Update prompt library data and add Excel upload tools
+
+7. After committing, Vercel will automatically redeploy.
+
+IMPORTANT:
+Do not upload only the ZIP file. Upload the unzipped contents.
+Do not place src and public inside another folder.
